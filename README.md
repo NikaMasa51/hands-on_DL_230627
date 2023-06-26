@@ -9,44 +9,9 @@ Lab [homepage](https://lab.fieldphenomics.com/)
 ### [SetupGooglecolab](https://drive.google.com/file/d/1gkNQDE2NYd5b9xj5fNDu5e9pCtc4lIaN/view?usp=sharing)  
 なぜGooglecolab？  
 Pythonの環境構築不要なGPUも使えるWebサービス（基本無料）
-  
-## 植物画像データに基づくデータ解析の応用例.  
-Applications of Image analysis for agriculture.  
-[資料Slides]()
-
-## 植物画像データの画像解析（１）  
-Fundamentals of image analysis(Vectors and matrices operation)  
-1. Googlecolab_fundamentals_1  
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/Googlecolab_fundamentals_1_jp.ipynb) <br>
-2. Googlecolab_fundamentals_2  
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/Googlecolab_fundamentals_2_jp.ipynb) <br>
-
-## 植物画像データの画像解析（２）  
-Fundamentals of image analysis(Undstand Digital images and Preprossing)
-1. Googlecolab_fundamentals_3  
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/Googlecolab_fundamentals_3_jp.ipynb) <br>
-2. Googlecolab_fundamentals_4  
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/Googlecolab_fundamentals_4_jp.ipynb) <br>  
-3. Googlecolab_fundamentals_5  
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/Googlecolab_fundamentals_5.ipynb) <br>  
-
+ 
 ## 植物画像データの機械学習  
-Image analysis for agriculture: Machine learning  
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/Calculate_cc.ipynb) <br> 
 
-## 植物画像データの深層学習  
-Image analysis for agriculture: Deep learning  
-Demo1:  
-[Example:雑草識別モデル (Weed recognization demo)](https://teachablemachine.withgoogle.com/models/1u_hCfzqq/)  
-Demo2:  
-[Example:ムギ穂検出モデル(wheat head detection)](https://demo.roboflow.com/gwhd2021/2?publishable_key=rf_weZnIlXkTFd6iBv8A6VW4nGUH673)  
-
-1. [Study_CNN_Explainer](https://utokyo-fieldphenomics-lab.github.io/Study_CNN_Explainer/) (modified with weed dataset)  
-original version from Here: [Zijie J. Wang et al., 2020](https://github.com/poloclub/cnn-explainer).  
-1. [初心者のための TensorFlow 2.0 入門](https://www.tensorflow.org/tutorials/quickstart/beginner)  
-2. [畳み込みニューラルネットワーク (Convolutional Neural Networks)](https://www.tensorflow.org/tutorials/images/cnn)
-3. TensorFlow2 for beginner  
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/TensorFlow2beginner.ipynb) <br>  
 1. Image classification  
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/weed_classification_01.ipynb) <br>  
 1. Object detection  
