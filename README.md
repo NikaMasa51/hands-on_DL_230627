@@ -13,7 +13,7 @@ Pythonの環境構築不要なGPUも使えるWebサービス（基本無料）
 ## 植物画像データの機械学習  
 
 1. Image classification  
-[![image](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/weed_classification_01.ipynb](https://colab.research.google.com/drive/1iD4X05HfFrRvCn1sDPfb2BlGENuB7aI6?authuser=1)) <br>  
+[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NikaMasa51/hands-on_DL_230627/blob/main/codes/weed_classification_01.ipynb)) <br>  
 1. Object detection  
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/YOLOv5withGlovalWheat.ipynb) <br>  
   
