@@ -4,41 +4,43 @@ By Laboratory of Field Phenomics, Graduate School of Agricultural and Life Scien
 Lab [homepage](https://lab.fieldphenomics.com/)  
 **NOTE:**  
 
-
 ## 事前準備（Preparation）
 ### [SetupGooglecolab](https://drive.google.com/file/d/1gkNQDE2NYd5b9xj5fNDu5e9pCtc4lIaN/view?usp=sharing)  
 なぜGooglecolab？  
 Pythonの環境構築不要なGPUも使えるWebサービス（基本無料）
- 
-## 植物画像データの機械学習  
-
-1. Image classification  
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NikaMasa51/hands-on_DL_230627/blob/main/codes/weed_classification_01.ipynb)) <br>  
-1. Object detection  
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/YOLOv5withGlovalWheat.ipynb) <br>  
   
+## 植物画像データに基づく深層学習の応用例.  
+Applications of Deep learning for agriculture.  
+[資料Slides](https://drive.google.com/file/d/1yWZHhWCLCUBuISiWav-_2EfupvM39eRO/view?usp=sharing)
 
-## 多次元画像データの解析（三次元点群中心）  
-Image analysis for agriculture: Multi-dimensional imaging  
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/PointCloudProcess.ipynb) <br>
+## Classification(分類) 
+Fundamentals of image classification
+### classification  
+[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NikaMasa51/hands-on_DL_230627/blob/main/codes/weed_classification_01.ipynb) <br>
 
-## 植物画像データの収集.  
-Data collection  
-[資料Slides]()
-1. UAVPP, Breeder-Friendly-Plant-Phenotyping-tools for UAV, [Wiki page](https://github.com/oceam/UAVPP/wiki/).　　
-2. UGVPP, field phenotyping rover, [homepage](https://github.com/UTokyo-FieldPhenomics-Lab/UGVPP).　　
+## Object detection(物体検出)
+Fundamentals of object detection
+### object_detection  
+[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NikaMasa51/aichi-20230214/blob/main/codes/object_detection.ipynb) <br>
 
-## 深層学習を実践する 
-1. Dataset  
-1.1. [Weed discrimination dataset](https://drive.google.com/drive/folders/1kAKfIyv2DGHnGB0NPSJAJJcDCA8U2dGe?usp=sharing)  
-1.2. [roboflowPublickDtaset](https://public.roboflow.com/)
-2. Try play with weed discrimination model  
-2.1. Use [Google Teachable Machine](https://teachablemachine.withgoogle.com/)   
-2.1.1 try to use the model made from google teachable machine  
+## Semantic segmentation(意味的分割) 
+Fundamentals of semantic segmentation  
+### semantic_segmentation  
+[![image](https://colab.research.google.com/assets/colab-badge.svg)] <br> 
+
+## 深層学習を実践する（おまけ)
+1. [Study_CNN_Explainer](https://utokyo-fieldphenomics-lab.github.io/Study_CNN_Explainer/) (modified with weed dataset)  
+original version from Here: [Zijie J. Wang et al., 2020](https://github.com/poloclub/cnn-explainer).  
+1. [初心者のための TensorFlow 2.0 入門](https://www.tensorflow.org/tutorials/quickstart/beginner)  
+2. [畳み込みニューラルネットワーク (Convolutional Neural Networks)](https://www.tensorflow.org/tutorials/images/cnn)
+3. TensorFlow2 for beginner  
+[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/TensorFlow2beginner.ipynb) <br>  
+4. Dataset  
+4.1. [roboflowPublickDtaset](https://public.roboflow.com/)
+5. Try play with weed discrimination model  
+5.1. Use [Google Teachable Machine](https://teachablemachine.withgoogle.com/)   
+5.1.1 try to use the model made from google teachable machine  
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/test_teachable_machine_model.ipynb) <br>
-2.2. Use Google colab  
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/weed_classification_02.ipynb) <br>
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oceam/agri-image/blob/main/codes/weed_classification_04.ipynb) <br>
 
 ## Useful information  
 1. [Yann LeCun 深層学習コース(多言語資料あり)](https://atcold.github.io/pytorch-Deep-Learning/ja/)
@@ -51,4 +53,8 @@ Data collection
 1. [農林水産省：スマート農業](https://www.maff.go.jp/j/kanbo/smart/)
 1. [農林水産省：農業DX構想](https://www.maff.go.jp/j/press/kanbo/joho/210325.html)
 1. [九州大学3Dデジタル生物標本](https://www.kyushu-u.ac.jp/ja/researches/view/802/)
+
+  
+
+
 
